@@ -58,10 +58,11 @@ $win.on('load resize', function() {
       $('nav').removeClass('open');      
     }
   });
-  if( $(window).width()<375 ){
+  if( $(window).width()>375 ){
     $('.header__item>a').on('click',function(){
       $('.btn_trigger').removeClass('btn_close');
-      $('body').removeClass('noscroll');
+      $('nav').toggleClass('open');
+      $('.overlay').toggleClass('open');
       });
     };
   });
