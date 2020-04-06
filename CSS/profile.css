@@ -151,6 +151,9 @@ h4::after{
     justify-content: center;
     margin-bottom: 30px;
   }
+  .about__left img{
+    padding: 0;
+  }
   .skill__wrapper{
     flex-direction: column;
   }
