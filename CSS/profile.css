@@ -147,6 +147,9 @@ h4::after{
   .about__wrapper{
     flex-direction: column;
   }
+  .about__left img{
+    padding-right: 0;
+  }
   .about__left{
     display: flex;
     justify-content: center;
