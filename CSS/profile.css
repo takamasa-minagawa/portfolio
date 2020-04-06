@@ -55,6 +55,7 @@ h4::after{
 }
 .about__left img{
   width: 200px;
+  height: 200px;
   padding-right: 50px;
 }
 /* ----------------------------------- */
