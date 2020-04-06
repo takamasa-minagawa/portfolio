@@ -55,6 +55,8 @@ h4::after{
 }
 .about__left img{
   width: 200px;
+  height: 200px;
+  object-fit: contain;
   padding-right: 50px;
 }
 /* ----------------------------------- */
@@ -113,7 +115,11 @@ h4::after{
 /* ----------------------------------- */
 .hobby__wrapper{
   display: flex;
-  justify-self: center;
+  justify-content: center;
+  align-items: center;
+}
+.hobby__wrapper p{
+  margin: 0 0 0 30px;
 }
 .hobby__wrapper img{
   width: 200px;
@@ -127,6 +133,11 @@ h4::after{
   width: 300px;
   height: 250px;
   object-fit: contain;
+}
+.hobby figure a{
+  width: 300px;
+  height: 250px;
+  display: inline-block;
   margin: 0 25px;
 }
 .hobby small{
@@ -172,5 +183,16 @@ h4::after{
   }
   .hobby__wrapper, .hobby figure{
     flex-direction: column;
+    align-items: center;
+  }
+  .hobby figure{
+    padding: 0;
+  }
+  .hobby figure a{
+    padding: 10px 0;
+  }
+  .hobby__wrapper p{
+    margin: 0;
+    padding-top: 30px;
   }
 }
