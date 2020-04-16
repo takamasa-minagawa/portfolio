@@ -3,11 +3,9 @@
   background-color: #FBD26B;
   padding-top: 70px;
 }
-
 .fv svg{
   height: 119px;
 }
-
 .fv__title{
   height: 200px;
   display: flex;
@@ -25,7 +23,6 @@ h4{
   text-align: center;
   padding-bottom: 10px;
 }
-
 h4::after{
   position: absolute;
   content: " ";
@@ -49,6 +46,11 @@ h4::after{
   width: 100px;
   transform: rotate(90deg);
 }
+
+
+
+
+
 /* -------------------------------- */
 /* img title */
 /* -------------------------------- */
@@ -84,6 +86,11 @@ h4::after{
 .works__title .btn{
   margin-top: 50px;
 }
+
+
+
+
+
 /* -------------------------------- */
 /* overview */
 /* -------------------------------- */
@@ -112,6 +119,11 @@ h4::after{
   padding-top: 100px;
   text-align: center;
 }
+
+
+
+
+
 /* -------------------------------- */
 /* target */
 /* -------------------------------- */
@@ -154,6 +166,11 @@ h4::after{
   text-align: left;
   line-height: 200%;
 }
+
+
+
+
+
 /* -------------------------------- */
 /* process */
 /* -------------------------------- */
@@ -239,7 +256,6 @@ h4::after{
 .details__design .process__photo img{
   padding: 30px 20px 30px 0;
 }
-
 .process__photo img{
   width: 300px;
   max-height: 300px;
@@ -279,12 +295,15 @@ h4::after{
 
 
 
+
+
+
+
 /* -------------------------------- */
 /* SPsite */
 /* -------------------------------- */
-
 @media only screen and (max-width: 1023px) {
-　.fv{
+  .fv{
   width: 100vw;
   font-size: 6.4rem;
   }
@@ -294,6 +313,11 @@ h4::after{
   h4{
     font-size: 3.6rem;
   }
+
+
+
+
+
 /* -------------------------------- */
 /* img title */
 /* -------------------------------- */
@@ -311,6 +335,11 @@ h4::after{
   .works__title_sub{
     margin-bottom: 50px;
   }
+
+
+
+
+
 /* -------------------------------- */
 /* target */
 /* -------------------------------- */
@@ -379,9 +408,6 @@ h4::after{
   .details__overall{
     flex-direction: column;
     margin: 0 auto;
-    /* width: 200px;
-    height: 300px;
-    object-fit: contain; */
   }
   .details__overall a , .details__overall img{
     width: 200px;
