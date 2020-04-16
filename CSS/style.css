@@ -74,11 +74,15 @@
 .works__content .btn{
   margin: 20px 0 100px;
 }
+.works__content div{
+  margin: 0 30px;
+}
 .works__img_wrapper{
-  height: 300px;
-  display: table-cell;
-  vertical-align: middle;
-
+  height: 250px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
 }
 .works__img{
   display: table-cell;
@@ -89,8 +93,8 @@
   opacity: 0.8;
 }
 .works__img img{
-  width: 400px;
-  height: auto;
+  width: auto;
+  height: 240px;
   vertical-align: bottom;
   object-fit: contain;
   border:1px solid #dddddd;
@@ -152,8 +156,22 @@
 
 
 
+/* -------------------------------- */
+/* contact */
+/* -------------------------------- */
+.contact{
+  text-align: center;
+}
 
-
+.contact__mail{
+  font-size: 2.4rem;
+  display: inline-block;
+  padding: 25px 50px;
+  margin: 50px 0 25px;
+}
+.contact .btn{
+  width: auto;
+}
 
 
 /* -------------------------------- */
@@ -177,7 +195,8 @@
     height: inherit;
   }
   .works__img img{
-    width: 100%;
+    width: 100vw;
+    height: auto;
   }
   .works__content .btn{
     margin: 20px 0 50px;
