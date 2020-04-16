@@ -35,6 +35,9 @@
 }
 
 
+
+
+
 /* -------------------------------- */
 /* works */
 /* -------------------------------- */
@@ -59,7 +62,6 @@
 .works__website h3::after{
   bottom: 8px;
 }
-
 .works__content{
   display: flex;
   justify-content: center;
@@ -108,8 +110,11 @@
 }
 .works__photograph_left .btn{
   margin: 20px auto;
-  
 }
+
+
+
+
 
 /* -------------------------------- */
 /* profile */
@@ -153,6 +158,8 @@
 
 
 
+
+
 /* -------------------------------- */
 /* contact */
 /* -------------------------------- */
@@ -171,10 +178,17 @@
 }
 
 
+
+
+
+
+
+
+
+
 /* -------------------------------- */
 /* SPsite */
 /* -------------------------------- */
-
 @media only screen and (max-width: 1023px) {
   text{
     font-size: 4.8rem;
@@ -217,4 +231,4 @@
   .contact p{
     text-align: center;
   }
-  }
+ }
