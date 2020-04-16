@@ -166,7 +166,6 @@
 .contact{
   text-align: center;
 }
-
 .contact__mail{
   font-size: 2.4rem;
   display: inline-block;
@@ -231,4 +230,4 @@
   .contact p{
     text-align: center;
   }
- }
+}
