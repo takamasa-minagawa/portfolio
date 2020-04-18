@@ -211,6 +211,10 @@
   .works__content .btn{
     margin: 20px 0 50px;
   }
+  .works__content div{
+    width: 100vw;
+    margin: 0;
+  }
   .profile__wrapper{
     padding: 0;
     flex-direction: column;
