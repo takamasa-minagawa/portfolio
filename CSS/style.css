@@ -173,7 +173,8 @@
   margin: 50px 0 25px;
 }
 .contact .btn{
-  width: auto;
+  width: 100vw;
+  max-width: 340px;
 }
 
 
@@ -233,5 +234,9 @@
   }
   .contact p{
     text-align: center;
+  }
+  .contact__mail{
+    font-size: 1.6rem;
+    padding: 25px 0;
   }
 }
