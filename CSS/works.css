@@ -83,6 +83,9 @@ h4::after{
   width: 200px;
   margin-bottom: 100px;
 }
+.banner{
+  width: 50%;
+}
 .works__title .btn{
   margin-top: 50px;
 }
@@ -355,6 +358,11 @@ h4::after{
   .target__persona span{
     text-align: center;
   }
+
+
+
+
+  
 /* -------------------------------- */
 /* process */
 /* -------------------------------- */
